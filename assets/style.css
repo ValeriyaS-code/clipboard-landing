@@ -38,13 +38,12 @@ header img {
     padding-bottom: 1rem;
 }
 
-.second-message {
-    margin-top: 4rem;
-}
-
-.second-message h1 {
+.second-head {
     font-weight: 400;
     font-size: 1.4rem;
+    margin-top: 4rem;
+    color: #484E57;
+    margin-bottom: 1rem;
 }
 
 .main-btn {
@@ -83,9 +82,9 @@ header img {
     padding: 5rem 4rem;
 }
 
-.flex-col h2 {
+.flex-col h3 {
     color: #484E57;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
     padding-bottom: 0.6rem;;
 }
@@ -98,4 +97,18 @@ header img {
 
 .col {
     margin-bottom: 3.5rem;
+}
+
+.section-3-rows {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-3-rows img {
+    margin-top: 2.5rem;
+    width: 70%;
+    height: 40%;
 }
