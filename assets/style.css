@@ -148,3 +148,17 @@ header img {
     color: hsl(201, 11%, 66%);
     line-height: 1.5;
 }
+
+.brand-logos {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brand-logos img {
+    width: 19%;
+    height: auto;
+    display: inline-block;
+    padding-left: 1.5rem;
+    margin-top: 4rem;
+}
