@@ -18,13 +18,13 @@ header {
 header img {
     width: 65px;
     height: 65px;
-    margin: 50px 0 20px 0;
+    margin: 80px 0 20px 0;
 }
 
 .main_message {
     margin: 0 auto;
     text-align: center;
-    width: 40%;
+    width: 50%;
     font-size: 1rem;
     font-weight: 400;
     color: hsl(201, 11%, 66%);
@@ -60,4 +60,19 @@ header img {
 .main-btn-two-color {
     background-color: hsl(233, 100%, 69%);
     border: 2px solid hsl(233, 100%, 69%);
+}
+
+.hero-section {
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+}
+
+.hero-section img {
+    width: 50%;
+}
+
+.flex-col {
+    width: 40%;
+    padding: 5rem 3rem;
 }
