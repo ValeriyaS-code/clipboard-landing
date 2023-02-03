@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    background-image: url('./images/bg-header-desktop.png');
+    box-shadow: 0 0 8px 0 white inset;
+    text-align: center;
+    opacity: 60%;
+}
+
+header img {
+    width: 65px;
+    height: 65px;
+    margin: 50px 0 20px 0;
+}
+
+.main_message {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    padding: 0 1rem 1rem 1rem;
+}
+
+.second-message {
+    margin-top: 4rem;
+}
+
+.main_message h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 1rem;
+}
+
+.main-btn {
+    width: 10rem;
+    height: 2.5rem;
+    margin: 2rem 0.5rem 0 0;
+    color: white;
+    border-radius: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.main-btn-one-color {
+    background-color: hsl(171, 66%, 44%);
+    border: 2px solid hsl(171, 66%, 44%);
+}
+
+.main-btn-two-color {
+    background-color: hsl(233, 100%, 69%);
+    border: 2px solid hsl(233, 100%, 69%);
+}
