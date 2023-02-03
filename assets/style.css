@@ -25,21 +25,26 @@ header img {
     margin: 0 auto;
     text-align: center;
     width: 50%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     padding: 0 1rem 1rem 1rem;
+}
+
+.main_message h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #484E57;
+    padding-bottom: 1rem;
 }
 
 .second-message {
     margin-top: 4rem;
 }
 
-.main_message h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: hsl(210, 10%, 33%);
-    padding-bottom: 1rem;
+.second-message h1 {
+    font-weight: 400;
+    font-size: 1.4rem;
 }
 
 .main-btn {
@@ -66,6 +71,7 @@ header img {
     width: 100%;
     display: flex;
     margin-top: 4rem;
+    flex-wrap: wrap;
 }
 
 .hero-section img {
@@ -74,5 +80,22 @@ header img {
 
 .flex-col {
     width: 40%;
-    padding: 5rem 3rem;
+    padding: 5rem 4rem;
+}
+
+.flex-col h2 {
+    color: #484E57;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 0.6rem;;
+}
+
+.flex-col p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.col {
+    margin-bottom: 3.5rem;
 }
