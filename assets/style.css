@@ -24,11 +24,12 @@ header img {
 .main_message {
     margin: 0 auto;
     text-align: center;
+    align-items: center;
     width: 50%;
     font-size: 0.9rem;
     font-weight: 400;
     color: hsl(201, 11%, 66%);
-    padding: 0 1rem 1rem 1rem;
+    line-height: 1.5;
 }
 
 .main_message h1 {
@@ -86,13 +87,14 @@ header img {
     color: #484E57;
     font-size: 1.1rem;
     font-weight: 400;
-    padding-bottom: 0.6rem;;
+    padding-bottom: 0.6rem;
 }
 
 .flex-col p {
     font-size: 0.9rem;
     font-weight: 400;
     color: hsl(201, 11%, 66%);
+    line-height: 1.5;
 }
 
 .col {
@@ -111,4 +113,37 @@ header img {
     margin-top: 2.5rem;
     width: 70%;
     height: 40%;
+}
+
+.three-column-flex {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.three-column-flex img {
+    width: 1.5rem;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.col-three {
+    padding-left: 1rem;
+    width: 35%;
+}
+
+.col-three h4 {
+    color: #484E57;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: 0.6rem;
+}
+
+.col-three p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
 }
