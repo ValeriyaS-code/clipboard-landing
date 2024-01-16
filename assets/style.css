@@ -30,7 +30,7 @@ nav {
 }
 
 .main_header h1 {
-    font-size: 46px;
+    font-size: 43px;
     margin: 0;
 }
 
@@ -54,6 +54,7 @@ nav {
     height: 56px;
     border-radius: 45px;
     font-size: 18px;
+    margin-top: 30px;
 }
 
 .butt_one {
@@ -73,13 +74,52 @@ nav {
     margin-top: 125px;
 }
 
-.keep_track_section h2 {
+.heading {
     color: #4C545C;
     font-size: 36px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
-.keep_track_section p {
+.paragraph {
     color: #9EABB2;
     font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.quick_search {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 5px;
+    margin: 75px 0;
+}
+
+.quick_search img {
+    width: 650px;
+    height: 500px;
+}
+
+.quick_search h3 {
+    color: #4C545C;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 62px;
+}
+
+.quick_search p {
+    color: #9EABB2;
+    font-size: 16px;
+    margin-top: 0;
+    width: 350px;
+}
+
+.clipboard_access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 730px;
+    margin: 0 auto;
+
 }
