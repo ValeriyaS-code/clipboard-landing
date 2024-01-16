@@ -65,3 +65,21 @@ nav {
     background-color: #6174FF;
     border: 1px solid #6174FF;
 }
+
+.keep_track_section {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+
+.keep_track_section h2 {
+    color: #4C545C;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.keep_track_section p {
+    color: #9EABB2;
+    font-size: 18px;
+}
