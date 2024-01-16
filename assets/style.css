@@ -39,6 +39,7 @@ nav {
     text-align: center;
     font-size: 20px;
     color: #9EABB2;
+    margin-bottom: 70px;
 }
 
 .download_buttons {
@@ -46,15 +47,16 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 25px;
+    margin-bottom: 50px;
 }
 
 .button {
     color: #FFFFFF;
     width: 227px;
     height: 56px;
-    border-radius: 45px;
+    border-radius: 35px;
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .butt_one {
@@ -70,8 +72,7 @@ nav {
 .keep_track_section {
     width: 550px;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 125px;
+    margin: 50px auto;
 }
 
 .heading {
@@ -123,3 +124,43 @@ nav {
     margin: 0 auto;
 
 }
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    text-align: center;
+    width: 1110px;
+    margin: 60px auto;
+}
+
+.options img {
+    width: 30px;
+    height: 26px;
+}
+
+.option_heading {
+    color: #4C545C;
+    font-size: 18px;
+}
+
+.option_paragrahp {
+    color: #9EABB2;
+    font-size: 16px;
+    padding: 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 60px auto;
+}
+
+.logos img {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 100px;
+}
+
